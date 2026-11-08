@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Doodle Studio</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_library">My Works</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Color &amp; Relax</string>
+    <string name="onboarding_desc_1">Explore beautiful line-art templates and fill them with vibrant colors instantly.</string>
+    <string name="onboarding_title_2">Free Doodle</string>
+    <string name="onboarding_desc_2">Express your creativity on a clean canvas with versatile brushes.</string>
+    <string name="onboarding_title_3">Timelapse Replay</string>
+    <string name="onboarding_desc_3">Watch your artwork come alive and share your creative journey with friends.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_start">Start Creating</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Let\'s Create Something Beautiful</string>
+    <string name="home_categories">Categories</string>
+    <string name="home_featured">Featured Artworks</string>
+    <string name="home_start_blank">Blank Canvas (Free Draw)</string>
+    <string name="home_see_all">See All</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_mandala">Mandala</string>
+    <string name="cat_flowers">Flowers</string>
+    <string name="cat_animals">Animals</string>
+    <string name="cat_geometry">Geometric</string>
+    <string name="cat_scenery">Scenery</string>
+    <string name="cat_food">Food &amp; Tea</string>
+
+    <!-- Difficulties -->
+    <string name="diff_easy">Easy</string>
+    <string name="diff_medium">Medium</string>
+    <string name="diff_hard">Detailed</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Template Gallery</string>
+    <string name="gallery_empty">No templates found in this category.</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Editor</string>
+    <string name="editor_placeholder_hint">Coloring and drawing engine will be activated in Phase P2.</string>
+    <string name="editor_template_info">Template: %1$s</string>
+    <string name="btn_back">Back</string>
+    <string name="mode_fill">Color Fill</string>
+    <string name="mode_draw">Free Draw</string>
+    <string name="tool_pen">Pen</string>
+    <string name="tool_marker">Marker</string>
+    <string name="tool_neon">Neon</string>
+    <string name="tool_eraser">Eraser</string>
+    <string name="brush_size">Size</string>
+    <string name="brush_opacity">Opacity</string>
+    <string name="canvas_background">Background</string>
+    <string name="btn_save">Save</string>
+    <string name="save_success">Artwork saved successfully!</string>
+    <string name="result_title">Artwork Ready</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_home">Back to Home</string>
+    <string name="export_timelapse">Export Timelapse</string>
+    <string name="exporting_video">Generating timelapse video...</string>
+    <string name="saved_to_gallery">Saved to Gallery (Movies/DoodleStudio)</string>
+
+    <!-- Library & Settings Placeholders -->
+    <string name="library_title">My Artworks</string>
+    <string name="library_placeholder">Your saved artworks will appear here.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_sound">Sound Effects</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_about">About Doodle Studio</string>
+    <string name="settings_credits">Credits &amp; Licenses</string>
+    <string name="settings_version">Version 1.0.0</string>
+
+    <!-- Neon Redesign Strings -->
+    <string name="ad_free_title">Ad Free</string>
+    <string name="ad_free_description">Upgrade to Ad-Free version to remove all advertisements and enjoy an uninterrupted creative drawing experience!</string>
+    <string name="clear_canvas_title">Clear Canvas</string>
+    <string name="clear_canvas_message">Are you sure you want to clear the entire drawing?</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="tool_rainbow">Rainbow</string>
+    <string name="tool_sparkle">Sparkle</string>
+    <string name="tool_stars">Stars</string>
+    <string name="artworks_count">%1$d Artworks</string>
+    <string name="gallery_empty_neon">Draw something!</string>
+    <string name="timelapse_preview_title">Timelapse Video</string>
+    <string name="video_length">Video Length: %1$d seconds</string>
+</resources>
+

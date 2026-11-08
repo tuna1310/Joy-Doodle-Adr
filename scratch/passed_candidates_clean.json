@@ -1,0 +1,506 @@
+[
+  {
+    "file": "animals_284788_horse.svg",
+    "size": 18047,
+    "totalInterior": 259051,
+    "fillPct": "24.7",
+    "allRegionsCount": 52,
+    "sigCount": 13,
+    "isPass": true
+  },
+  {
+    "file": "animals_300166_coloring_book_felid.svg",
+    "size": 3248,
+    "totalInterior": 427969,
+    "fillPct": "40.8",
+    "allRegionsCount": 25,
+    "sigCount": 6,
+    "isPass": true
+  },
+  {
+    "file": "animals_302297_easter_coloring_imag.svg",
+    "size": 77185,
+    "totalInterior": 187954,
+    "fillPct": "17.9",
+    "allRegionsCount": 182,
+    "sigCount": 17,
+    "isPass": true
+  },
+  {
+    "file": "animals_312536_unicorn_line_art.svg",
+    "size": 50994,
+    "totalInterior": 158095,
+    "fillPct": "15.1",
+    "allRegionsCount": 192,
+    "sigCount": 5,
+    "isPass": true
+  },
+  {
+    "file": "animals_312543_kawaii_kitty_line_ar.svg",
+    "size": 7795,
+    "totalInterior": 388769,
+    "fillPct": "37.1",
+    "allRegionsCount": 10,
+    "sigCount": 6,
+    "isPass": true
+  },
+  {
+    "file": "animals_313995_unicorn_love_line_ar.svg",
+    "size": 89057,
+    "totalInterior": 574527,
+    "fillPct": "54.8",
+    "allRegionsCount": 161,
+    "sigCount": 30,
+    "isPass": true
+  },
+  {
+    "file": "animals_328812_feliform_face_colori.svg",
+    "size": 1468,
+    "totalInterior": 557465,
+    "fillPct": "53.2",
+    "allRegionsCount": 7,
+    "sigCount": 7,
+    "isPass": true
+  },
+  {
+    "file": "animals_330237_cute_bear_sitting.svg",
+    "size": 20861,
+    "totalInterior": 331610,
+    "fillPct": "31.6",
+    "allRegionsCount": 13,
+    "sigCount": 5,
+    "isPass": true
+  },
+  {
+    "file": "animals_352670_simple_butterfly_out.svg",
+    "size": 11350,
+    "totalInterior": 184350,
+    "fillPct": "17.6",
+    "allRegionsCount": 52,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "animals_352671_simple_detailed_butt.svg",
+    "size": 24392,
+    "totalInterior": 183994,
+    "fillPct": "17.5",
+    "allRegionsCount": 58,
+    "sigCount": 21,
+    "isPass": true
+  },
+  {
+    "file": "animals_355258_white_open_book_bein.svg",
+    "size": 4132,
+    "totalInterior": 346575,
+    "fillPct": "33.1",
+    "allRegionsCount": 39,
+    "sigCount": 10,
+    "isPass": true
+  },
+  {
+    "file": "dinosaurs_1384_dragon_with_horn.svg",
+    "size": 31708,
+    "totalInterior": 178430,
+    "fillPct": "17.0",
+    "allRegionsCount": 61,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "dinosaurs_234370_rawr_dinosaur_outlin.svg",
+    "size": 22745,
+    "totalInterior": 251369,
+    "fillPct": "24.0",
+    "allRegionsCount": 28,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "dinosaurs_281169_happy_dinosaur_outli.svg",
+    "size": 59268,
+    "totalInterior": 292274,
+    "fillPct": "27.9",
+    "allRegionsCount": 132,
+    "sigCount": 4,
+    "isPass": true
+  },
+  {
+    "file": "dinosaurs_316177_white_cartoon_tricer.svg",
+    "size": 11644,
+    "totalInterior": 333870,
+    "fillPct": "31.8",
+    "allRegionsCount": 18,
+    "sigCount": 11,
+    "isPass": true
+  },
+  {
+    "file": "dino_brontosaurus_01.svg",
+    "size": 59268,
+    "totalInterior": 292274,
+    "fillPct": "27.9",
+    "allRegionsCount": 132,
+    "sigCount": 4,
+    "isPass": true
+  },
+  {
+    "file": "flowers_26146_bee_and_flowers.svg",
+    "size": 37701,
+    "totalInterior": 187030,
+    "fillPct": "17.8",
+    "allRegionsCount": 15,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "flowers_298288_rose_4.svg",
+    "size": 14992,
+    "totalInterior": 215484,
+    "fillPct": "20.6",
+    "allRegionsCount": 16,
+    "sigCount": 14,
+    "isPass": true
+  },
+  {
+    "file": "flowers_312540_poinsettia_in_a_pot_.svg",
+    "size": 69134,
+    "totalInterior": 197735,
+    "fillPct": "18.9",
+    "allRegionsCount": 180,
+    "sigCount": 33,
+    "isPass": true
+  },
+  {
+    "file": "flowers_330217_cute_hamster_line_ar.svg",
+    "size": 13343,
+    "totalInterior": 407094,
+    "fillPct": "38.8",
+    "allRegionsCount": 6,
+    "sigCount": 4,
+    "isPass": true
+  },
+  {
+    "file": "flowers_344651_vegan_v_text_frame_a.svg",
+    "size": 70607,
+    "totalInterior": 230214,
+    "fillPct": "22.0",
+    "allRegionsCount": 9,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "flowers_352672_simple_flower_head_l.svg",
+    "size": 53632,
+    "totalInterior": 397495,
+    "fillPct": "37.9",
+    "allRegionsCount": 131,
+    "sigCount": 14,
+    "isPass": true
+  },
+  {
+    "file": "flowers_352740_imaginary_flower_hea.svg",
+    "size": 42360,
+    "totalInterior": 449152,
+    "fillPct": "42.8",
+    "allRegionsCount": 92,
+    "sigCount": 32,
+    "isPass": true
+  },
+  {
+    "file": "flowers_355258_white_open_book_bein.svg",
+    "size": 4132,
+    "totalInterior": 346575,
+    "fillPct": "33.1",
+    "allRegionsCount": 39,
+    "sigCount": 10,
+    "isPass": true
+  },
+  {
+    "file": "food_177813_banana_bunch_line_ar.svg",
+    "size": 120960,
+    "totalInterior": 221077,
+    "fillPct": "21.1",
+    "allRegionsCount": 36,
+    "sigCount": 3,
+    "isPass": true
+  },
+  {
+    "file": "food_84631_a_is_for_apple.svg",
+    "size": 7645,
+    "totalInterior": 187959,
+    "fillPct": "17.9",
+    "allRegionsCount": 5,
+    "sigCount": 5,
+    "isPass": true
+  },
+  {
+    "file": "food_8546_simple_fruit_apple.svg",
+    "size": 6154,
+    "totalInterior": 410674,
+    "fillPct": "39.2",
+    "allRegionsCount": 6,
+    "sigCount": 4,
+    "isPass": true
+  },
+  {
+    "file": "letters_243304_pi_day_coloring_fat_.svg",
+    "size": 5428,
+    "totalInterior": 280534,
+    "fillPct": "26.8",
+    "allRegionsCount": 4,
+    "sigCount": 3,
+    "isPass": true
+  },
+  {
+    "file": "letters_245302_creation_day_2_color.svg",
+    "size": 15906,
+    "totalInterior": 178103,
+    "fillPct": "17.0",
+    "allRegionsCount": 6,
+    "sigCount": 6,
+    "isPass": true
+  },
+  {
+    "file": "letters_245304_creation_day_4_color.svg",
+    "size": 6202,
+    "totalInterior": 199838,
+    "fillPct": "19.1",
+    "allRegionsCount": 17,
+    "sigCount": 6,
+    "isPass": true
+  },
+  {
+    "file": "letters_245306_creation_day_5_color.svg",
+    "size": 33525,
+    "totalInterior": 210935,
+    "fillPct": "20.1",
+    "allRegionsCount": 41,
+    "sigCount": 12,
+    "isPass": true
+  },
+  {
+    "file": "letters_312381_euclid_initial_lette.svg",
+    "size": 51359,
+    "totalInterior": 196800,
+    "fillPct": "18.8",
+    "allRegionsCount": 421,
+    "sigCount": 16,
+    "isPass": true
+  },
+  {
+    "file": "letters_312382_euclid_initial_lette.svg",
+    "size": 52668,
+    "totalInterior": 218070,
+    "fillPct": "20.8",
+    "allRegionsCount": 400,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "scenery_132469_family_house_raskorj.svg",
+    "size": 11604,
+    "totalInterior": 306352,
+    "fillPct": "29.2",
+    "allRegionsCount": 37,
+    "sigCount": 20,
+    "isPass": true
+  },
+  {
+    "file": "scenery_181418_l_shaped_building.svg",
+    "size": 10164,
+    "totalInterior": 274998,
+    "fillPct": "26.2",
+    "allRegionsCount": 57,
+    "sigCount": 39,
+    "isPass": true
+  },
+  {
+    "file": "scenery_181419_rectangle_shaped_bui.svg",
+    "size": 5893,
+    "totalInterior": 340063,
+    "fillPct": "32.4",
+    "allRegionsCount": 31,
+    "sigCount": 24,
+    "isPass": true
+  },
+  {
+    "file": "scenery_229963_color.svg",
+    "size": 89677,
+    "totalInterior": 236556,
+    "fillPct": "22.6",
+    "allRegionsCount": 281,
+    "sigCount": 50,
+    "isPass": true
+  },
+  {
+    "file": "scenery_234766_rainbow_for_coloring.svg",
+    "size": 5179,
+    "totalInterior": 259706,
+    "fillPct": "24.8",
+    "allRegionsCount": 8,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "sea_170171_sea_fantasy.svg",
+    "size": 62249,
+    "totalInterior": 214044,
+    "fillPct": "20.4",
+    "allRegionsCount": 246,
+    "sigCount": 42,
+    "isPass": true
+  },
+  {
+    "file": "sea_325114_turtle_side_outline.svg",
+    "size": 14462,
+    "totalInterior": 177168,
+    "fillPct": "16.9",
+    "allRegionsCount": 44,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "sea_325116_turtle_crawling_line.svg",
+    "size": 15516,
+    "totalInterior": 181861,
+    "fillPct": "17.3",
+    "allRegionsCount": 51,
+    "sigCount": 23,
+    "isPass": true
+  },
+  {
+    "file": "sea_325250_cartoon_octopus.svg",
+    "size": 60975,
+    "totalInterior": 162647,
+    "fillPct": "15.5",
+    "allRegionsCount": 15,
+    "sigCount": 4,
+    "isPass": true
+  },
+  {
+    "file": "sea_333629_a_smiling_eel_versio.svg",
+    "size": 33642,
+    "totalInterior": 184570,
+    "fillPct": "17.6",
+    "allRegionsCount": 28,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "sea_74233_green_sea_turtle_lin.svg",
+    "size": 37680,
+    "totalInterior": 189420,
+    "fillPct": "18.1",
+    "allRegionsCount": 43,
+    "sigCount": 25,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_176375_bus_remixed.svg",
+    "size": 16477,
+    "totalInterior": 219481,
+    "fillPct": "20.9",
+    "allRegionsCount": 34,
+    "sigCount": 11,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_191590_p38_fighter_plane_ww.svg",
+    "size": 13922,
+    "totalInterior": 163800,
+    "fillPct": "15.6",
+    "allRegionsCount": 80,
+    "sigCount": 26,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_228075_airplane_with_propel.svg",
+    "size": 7295,
+    "totalInterior": 181624,
+    "fillPct": "17.3",
+    "allRegionsCount": 12,
+    "sigCount": 9,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_272531_rocket_coloring_page.svg",
+    "size": 8413,
+    "totalInterior": 185674,
+    "fillPct": "17.7",
+    "allRegionsCount": 9,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_298680_sail_ship_2_masts_ou.svg",
+    "size": 5650,
+    "totalInterior": 224453,
+    "fillPct": "21.4",
+    "allRegionsCount": 50,
+    "sigCount": 8,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_301370_rocket_11_outline.svg",
+    "size": 25302,
+    "totalInterior": 156593,
+    "fillPct": "14.9",
+    "allRegionsCount": 17,
+    "sigCount": 12,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_312018_car.svg",
+    "size": 31650,
+    "totalInterior": 225036,
+    "fillPct": "21.5",
+    "allRegionsCount": 25,
+    "sigCount": 10,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_313769_biquadretta.svg",
+    "size": 4577,
+    "totalInterior": 206222,
+    "fillPct": "19.7",
+    "allRegionsCount": 6,
+    "sigCount": 6,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_313982_biesagonetta.svg",
+    "size": 5763,
+    "totalInterior": 179623,
+    "fillPct": "17.1",
+    "allRegionsCount": 5,
+    "sigCount": 5,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_313999_queen_riding_bicycle.svg",
+    "size": 53990,
+    "totalInterior": 253470,
+    "fillPct": "24.2",
+    "allRegionsCount": 156,
+    "sigCount": 25,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_324037_big_helicopter_outli.svg",
+    "size": 19048,
+    "totalInterior": 346941,
+    "fillPct": "33.1",
+    "allRegionsCount": 39,
+    "sigCount": 10,
+    "isPass": true
+  },
+  {
+    "file": "vehicles_584_utility_truck.svg",
+    "size": 114633,
+    "totalInterior": 181658,
+    "fillPct": "17.3",
+    "allRegionsCount": 215,
+    "sigCount": 32,
+    "isPass": true
+  }
+]

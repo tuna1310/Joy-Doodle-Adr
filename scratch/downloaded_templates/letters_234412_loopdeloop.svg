@@ -1,0 +1,146 @@
+<svg width="100%" height="100%" viewBox="0 0 550 550"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <title>Loop-de-Loop</title>
+  
+  <desc>
+    Loop-de-Loop
+    inspired by Anna Weltman's book, This is Not a Maths Book.
+    
+    Image creates a spirolateral type image for a given number sequence. 
+    Line segments are drawn 90 degrees in the counterclockwise direction on a 20x20 grid. 
+    Repeating patterns colored in red.
+    Starting point (x,y) and number sequence can be passed to the image via a querystring appended to the url 
+    i.e. append <!-- ?x=7&y=5&s=3,1,6,5,4,2,7,6,4 --> to the SVG image url to draw that sequence. 
+    Default parameters are quivalent to the query string <!-- ?x=13&y=19&s=6,6,18 --> 
+    The timing can be changed by passing t=milliseconds (default=250 is minimum allowed). 
+
+    Jay Nick
+    steamcoded.org
+  </desc>     
+     
+  <script type="application/x-javascript"><![CDATA[
+  
+    var timeout=250;
+    
+    var seq;
+    var startx;
+    var starty;
+    
+    var node;
+    var path;
+    var xpos;
+    var ypos;
+    var index;
+    var mult = new Array(1,-1,-1,1);
+    var cnt;
+    
+    window.addEventListener("load",init);
+    
+    function init()
+    {
+      setTimeout(initialize,1000);  //Delay for openclipart image capture on upload
+    }
+      
+    function initialize()
+    {
+      // default values if none passed
+      seq = Array(6,6,18);
+      startx = 13;
+      starty = 19;
+
+      var qs = location.search;
+      if(qs.length!=0)
+      {
+        startx = 10;
+        starty = 10;
+        qs = qs.replace("?","");
+        var params = qs.split("&");
+        for(var i=0;i<params.length;i++)
+        {
+          var values = params[i].split("=");
+          if(values[0]=="x") startx = Number(values[1]);
+          if(values[0]=="y") starty = Number(values[1]);
+          if(values[0]=="s") seq = values[1].split(",");
+          if(values[0]=="t") timeout = values[1];
+        }
+        if(timeout<250) timeout=250;
+        if(startx<0 || startx>20) startx=10;
+        if(starty<0 || startx>20) starty=10;
+      }
+      
+      index = 0;
+      cnt = 0;
+    
+      xpos = startx;
+      ypos = starty;
+
+      node = document.getElementById("start");
+      node.setAttribute("cx",startx*25);
+      node.setAttribute("cy",starty*25);
+
+      node = document.getElementById("loop");
+      node.setAttribute("class","black");
+      path = "M"+25*xpos+","+25*ypos;
+      node.setAttribute("d",path);
+      
+      setTimeout(Draw,100);
+    }
+    
+    function Draw()
+    {
+      var x=0;
+      var y=0;
+      
+      if(cnt%2) {y = seq[index] * mult[cnt%4];}
+      else {x = seq[index] * mult[cnt%4];}
+      
+      xpos += x;
+      ypos += y;
+      
+      path += "l"+x*25+","+y*25;
+      node.setAttribute("d",path);
+      
+      index++;
+      if(index>=seq.length) index = 0;
+
+      if(xpos==startx && ypos==starty && index==0)
+      {
+        node.setAttribute("class","red");
+        return;
+      }
+      
+      cnt++;
+      if(cnt<50) setTimeout(Draw,timeout);
+    }
+  
+  ]]>
+  </script>
+       
+  <style type="text/css"><![CDATA[
+    .grid {stroke-dasharray:0.2,24.6,0.2,0;stroke-width:500;fill:none;stroke:blue;}
+    .black {stroke:black;fill:none;}
+    .red {stroke:black;fill:red;fill-opacity:0.7;fill-rule:evenodd;}
+  ]]>
+  </style>
+  
+  <defs>
+    <clipPath id="cp1">
+      <rect x="-1" y="-1" width="502" height="502" style="fill:white" />
+    </clipPath>
+  </defs>
+  
+    
+  <g transform="translate(25,25)" style="clip-path:url(#cp1);">
+    <!-- Draw the Grid -->
+    <line x1="0" y1="250" x2="500" y2="250" class="grid" />
+    <line x1="250" y1="0" x2="250" y2="500" class="grid" />
+    
+    <circle id="start" cx="250" cy="250" r="2" style="fill:black;" />
+    
+    <path id="loop" d="M325,475l150,0l0,-150l-450,0l0,150l150,0l0,-450l-150,0l0,150l450,0l0,-150l-150,0l0,450" style="stroke-width:2px;" class="red" />
+
+  </g>
+
+</svg>

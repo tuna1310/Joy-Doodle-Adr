@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1"
+   inkscape:version="0.48.4 r9939"
+   inkscape:export-filename="I:\Projs\Cliparts Stocker\green_pear.png"
+   viewBox="0 0 248 310"
+   sodipodi:version="0.32"
+   inkscape:export-xdpi="72.000000"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-ydpi="72.000000"
+   sodipodi:docname="jean-victor-balin-green-pear.svg"
+   width="100%"
+   height="100%">
+  <defs
+     id="defs400">
+    <linearGradient
+       id="linearGradient3899">
+      <stop
+         id="stop3900"
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0" />
+      <stop
+         id="stop3901"
+         style="stop-color:#6a8907;stop-opacity:0.69072002;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2449"
+       y2="202.97"
+       xlink:href="#linearGradient3899"
+       gradientUnits="userSpaceOnUse"
+       x2="127.57"
+       gradientTransform="scale(0.93391,1.0708)"
+       y1="68.688"
+       x1="205.02"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient2451"
+       y2="247.48"
+       xlink:href="#linearGradient3899"
+       gradientUnits="userSpaceOnUse"
+       x2="138.81"
+       gradientTransform="scale(0.93365,1.0711)"
+       y1="103.08"
+       x1="201.25"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3899"
+       id="linearGradient2997"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.93365,0,0,1.0711,-34.394262,-14.877746)"
+       x1="201.25"
+       y1="103.08"
+       x2="138.81"
+       y2="247.48" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3899"
+       id="linearGradient3004"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.93391,0,0,1.0708,-33.851,-15.421)"
+       x1="205.02"
+       y1="68.688"
+       x2="127.57"
+       y2="202.97" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:window-x="0"
+     inkscape:guide-bbox="true"
+     pagecolor="#ffffff"
+     inkscape:zoom="0.92037931"
+     inkscape:pageshadow="2"
+     borderopacity="1.0"
+     inkscape:current-layer="svg1"
+     inkscape:cx="65.460755"
+     inkscape:window-y="0"
+     inkscape:cy="166.40834"
+     inkscape:window-height="839"
+     showgrid="false"
+     inkscape:pageopacity="0.0"
+     inkscape:window-width="1440"
+     showguides="true"
+     inkscape:window-maximized="1" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#2d4600;fill-opacity:1"
+     sodipodi:nodetypes="cccccccccccccccccc"
+     d="m 19.929,0.869 c -8.55,2.036 -20.85,18.861 -15.4,27.465 2.8,4.411 12.31,9.271 12.11,15.091 -0.18,5.22 -6.93,13.14 -9.34,17.91 -3.85,7.63 -5.38,16.53 -6.2,25 -2.7,27.93 18.78,53.88 27.74,79 7.48,20.97 4.37,41.79 8.35,63 7.46,39.7 42.4,90 88.74,79.98 19.85,-4.28 33.54,-17.64 51,-26.81 14.76,-7.75 30.47,-10.59 43,-22.26 8.11,-7.55 16.24,-14.88 20.76,-25.06 4.44,-9.98 5.28,-18.15 6.28,-29.08 1.21,-13.15 -4.63,-30.69 -10.73,-41.77 -21.27,-38.62 -63.66,-53.88 -95.27,-82.17 -18.98,-16.99 -33.33,-38.39 -58.04,-48.5 -8.19,-3.35 -16.29,-3.53 -25,-3.31 -3.78,0.09 -8.41,1.78 -11.96,-0.05 -11.7,-6.052 -7.69,-32.806 -26.04,-28.436 z"
+     id="path4" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 163.329,280.499 c 10.92,0.65 27.39,-8.3 35.59,-17.43 l 0.19,-0.11 c -17.92,-6.2 -32.48,0.06 -35.78,17.54 z"
+     style="fill:#d09b52;fill-opacity:1"
+     sodipodi:nodetypes="cccc"
+     id="path329" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 57.659,34.391 c -2.493,-0.058 -5.294,0.651 -7.982,1.212 l -4.157,1.5 c 2.566,4.805 4.906,9.108 7.41,13.945 3.39,6.548 7.473,15.85 -0.449,20.491 C 47.196,74.637 39.669,75.395 36.18,70.141 31.981,63.819 28.757,57.038 25.243,50.36 l -0.188,0.125 c -7.008,3.267 -9.965,8.851 -12.625,15.844 -7.612,20.01 -3.682,33.49 3.5,53 7.305,19.84 18.929,37.07 24.375,58 4.037,15.52 0.6,30.96 3.406,46 7.454,39.95 40.118,86.1 85.528,77.53 10.55,-1.99 25.81,-11.83 33.47,-19.22 4.4,-4.24 5.91,-9.8 11.53,-13.31 12.6,-7.87 27.76,-0.97 39,-11.09 7.13,-6.42 10.69,-10.95 16.5,-18.28 5.77,-7.29 8.69,-17.58 10.44,-26.63 11.41,-59.11 -53.85,-86.27 -90.84,-116.66 -28.15,-23.121 -48.75,-62.247 -91.68,-61.278 z"
+     style="fill:#6fb200;stroke:url(#linearGradient3004);fill-opacity:1"
+     sodipodi:nodetypes="cccccccccccccccccccc"
+     id="path50" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 57.385,39.393 c -1.663,-0.025 -7.933,1.38 -9.42,2.185 0.751,2.052 4.787,9.097 5.576,11.446 1.309,3.487 2.968,6.413 2.708,10.005 -0.595,3.637 -1.565,5.743 -4.12,8.088 -0.972,1.308 -34.765,14.842 -29.292,33.212 1.21,4.06 2.813,8.21 4.718,12 7.612,15.13 20.956,26.77 32.282,39 7.172,7.74 11.722,14.81 18.622,22.87 6.42,7.51 11.65,19.31 17.94,27.13 8.02,9.97 20.72,17.27 32.53,21.81 35.43,13.62 96.03,14.37 96.28,-36.65 0.03,-5.34 -1.26,-11.88 -2.78,-17 -2.59,-8.75 -9.28,-16.75 -15.03,-23.25 -21.27,-24.04 -51.48,-37.52 -74.47,-59.91 -16.08,-15.667 -29.88,-30.296 -49,-42.375 -7.75,-4.897 -17.16,-8.42 -26.544,-8.561 z"
+     style="fill:#c9e99a;fill-opacity:1"
+     sodipodi:nodetypes="ccccccccccccccccc"
+     id="path60" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#785f3b;fill-opacity:1"
+     d="m 19.059,9.367 c -3.71,2.076 -8.77,11.78 -7.48,15.968 1.89,6.18 9.87,11.99 13.89,17 5.43,6.78 8.07,14.75 12.74,21.77 2.14,3.24 6.32,3.68 9.57,1.77 4.88,-2.86 2.83,-9.51 0.75,-13.54 -6.19,-11.96 -12.86,-23.66 -18.65,-35.91 -2.02,-4.27 -4.85,-10.394 -10.82,-7.058 z"
+     id="path10" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#cca664;fill-opacity:1"
+     sodipodi:nodetypes="ccccccc"
+     d="m 41.569,63.905 c 1.32,3.46 6.13,-2.54 4.79,-7.57 -2.84,-10.65 -11.29,-21.8 -15.91,-32 -1.43,-3.17 -3.15,-9.942 -6.07,-11.953 -5.09,-3.516 -9.55,7.312 -9.25,10.953 0.52,6.31 8.85,12.36 12.72,17.02 5.62,6.75 11.7,14.91 13.72,23.55 z"
+     id="path16" />
+  <path
+     sodipodi:start="0.96691241"
+     sodipodi:end="4.1783182"
+     sodipodi:cx="59.620975"
+     sodipodi:cy="71.696106"
+     transform="matrix(1.5514,0,0,0.85861,-61.707,-0.39)"
+     d="M 63.04937,82.008318 A 6.0375671,12.527951 0 1 1 56.547604,60.912772 l 3.073371,10.783334 z"
+     sodipodi:type="arc"
+     style="fill:#c6d77e;fill-rule:evenodd;fill-opacity:1"
+     sodipodi:ry="12.527951"
+     sodipodi:rx="6.0375671"
+     id="path1395" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 57.115746,34.934253 c -2.493,-0.058 -5.294,0.651 -7.982,1.212 l -4.157,1.5 c 2.566,4.805 4.906,9.108 7.41,13.945 3.39,6.547996 7.473,15.849996 -0.449,20.491006 -5.285,3.098 -12.812,3.856 -16.301,-1.398 -4.199,-6.32201 -7.423,-13.10301 -10.937,-19.781006 l -0.188,0.125 c -7.008,3.267 -9.965,8.850996 -12.625,15.843996 -7.6120002,20.01001 -3.6820002,33.490011 3.5,53.000011 7.305,19.84 18.929,37.07 24.375,58 4.037,15.52 0.6,30.96 3.406,46 7.454,39.95 40.118,86.1 85.528004,77.53 10.55,-1.99 25.81,-11.83 33.47,-19.22 4.4,-4.24 5.91,-9.8 11.52999,-13.31 12.6,-7.87 27.76,-0.97 39,-11.09 7.13,-6.42 10.69,-10.95 16.5,-18.28 5.77,-7.29 8.69,-17.58 10.44,-26.63 11.41,-59.11 -53.85,-86.27 -90.83999,-116.660001 -28.15,-23.121 -48.75,-62.247006 -91.680004,-61.278006 z"
+     style="fill:url(#linearGradient2997)"
+     sodipodi:nodetypes="cccccccccccccccccccc"
+     id="path3272" />
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2008-05-26T11:53:54</dc:date>
+        <dc:description />
+        <dc:source>https://openclipart.org/detail/17013/green_pear-by-jean_victor_balin</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jean_victor_balin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>food</rdf:li>
+            <rdf:li>fruit</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

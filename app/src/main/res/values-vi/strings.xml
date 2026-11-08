@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Doodle Studio</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_gallery">Bộ sưu tập</string>
+    <string name="nav_library">Tác phẩm</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Tô màu thư giãn</string>
+    <string name="onboarding_desc_1">Khám phá các bức tranh line-art tuyệt đẹp và đổ màu tức thì với một chạm nhẹ.</string>
+    <string name="onboarding_title_2">Vẽ tự do không giới hạn</string>
+    <string name="onboarding_desc_2">Tự do sáng tạo trên canvas trắng tinh khiết với hệ thống bút vẽ linh hoạt.</string>
+    <string name="onboarding_title_3">Video phát lại Timelapse</string>
+    <string name="onboarding_desc_3">Xem lại từng nét vẽ sống động và chia sẻ hành trình sáng tạo của bạn với bạn bè.</string>
+    <string name="btn_skip">Bỏ qua</string>
+    <string name="btn_next">Tiếp tục</string>
+    <string name="btn_start">Bắt đầu sáng tạo</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Cùng sáng tạo tác phẩm tuyệt vời</string>
+    <string name="home_categories">Chủ đề</string>
+    <string name="home_featured">Gợi ý hôm nay</string>
+    <string name="home_start_blank">Canvas trắng (Vẽ tự do)</string>
+    <string name="home_see_all">Xem tất cả</string>
+
+    <!-- Categories -->
+    <string name="cat_all">Tất cả</string>
+    <string name="cat_mandala">Mandala</string>
+    <string name="cat_flowers">Hoa lá</string>
+    <string name="cat_animals">Động vật</string>
+    <string name="cat_geometry">Hình học</string>
+    <string name="cat_scenery">Phong cảnh</string>
+    <string name="cat_food">Ẩm thực</string>
+
+    <!-- Difficulties -->
+    <string name="diff_easy">Dễ</string>
+    <string name="diff_medium">Vừa</string>
+    <string name="diff_hard">Chi tiết</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Bộ sưu tập tranh mẫu</string>
+    <string name="gallery_empty">Không có tranh nào trong chủ đề này.</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Trình vẽ &amp; tô màu</string>
+    <string name="editor_placeholder_hint">Engine tô màu và vẽ tự do sẽ được kích hoạt tại Phase P2.</string>
+    <string name="editor_template_info">Tranh mẫu: %1$s</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="mode_fill">Tô màu</string>
+    <string name="mode_draw">Vẽ tự do</string>
+    <string name="tool_pen">Bút vẽ</string>
+    <string name="tool_marker">Bút dạ</string>
+    <string name="tool_neon">Phát sáng</string>
+    <string name="tool_eraser">Tẩy</string>
+    <string name="brush_size">Độ dày</string>
+    <string name="brush_opacity">Độ mờ</string>
+    <string name="canvas_background">Màu nền</string>
+    <string name="btn_save">Lưu</string>
+    <string name="save_success">Đã lưu tác phẩm thành công!</string>
+    <string name="result_title">Tác phẩm hoàn tất</string>
+    <string name="btn_share">Chia sẻ</string>
+    <string name="btn_home">Về trang chủ</string>
+    <string name="export_timelapse">Xuất video timelapse</string>
+    <string name="exporting_video">Đang tạo video timelapse...</string>
+    <string name="saved_to_gallery">Đã lưu vào bộ sưu tập (Movies/DoodleStudio)</string>
+
+    <!-- Library & Settings Placeholders -->
+    <string name="library_title">Tác phẩm của tôi</string>
+    <string name="library_placeholder">Các tác phẩm đã lưu của bạn sẽ xuất hiện tại đây.</string>
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_sound">Âm thanh</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_about">Giới thiệu Doodle Studio</string>
+    <string name="settings_credits">Bản quyền &amp; Nguồn tài nguyên</string>
+    <string name="settings_version">Phiên bản 1.0.0</string>
+
+    <!-- Neon Redesign Strings -->
+    <string name="ad_free_title">Gỡ quảng cáo</string>
+    <string name="ad_free_description">Nâng cấp phiên bản Ad-Free để gỡ bỏ hoàn toàn quảng cáo và trải nghiệm vẽ tranh không gián đoạn!</string>
+    <string name="clear_canvas_title">Xóa bảng vẽ</string>
+    <string name="clear_canvas_message">Bạn có chắc chắn muốn xóa toàn bộ bức vẽ này không?</string>
+    <string name="btn_clear">Xóa</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="tool_rainbow">Cầu vồng</string>
+    <string name="tool_sparkle">Lấp lánh</string>
+    <string name="tool_stars">Ngôi sao</string>
+    <string name="artworks_count">%1$d Tác phẩm</string>
+    <string name="gallery_empty_neon">Hãy vẽ một bức tranh mới!</string>
+    <string name="timelapse_preview_title">Video tua nhanh</string>
+    <string name="video_length">Độ dài video: %1$d giây</string>
+</resources>
+

@@ -1,0 +1,615 @@
+{
+  "passed": [
+    {
+      "file": "template_animals_284788.png",
+      "totalFillablePixels": 266178,
+      "fillablePct": "25.4%",
+      "totalRegionsCount": 59,
+      "significantCount": 13,
+      "minorCount": 46,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_animals_312543.png",
+      "totalFillablePixels": 409569,
+      "fillablePct": "39.1%",
+      "totalRegionsCount": 11,
+      "significantCount": 6,
+      "minorCount": 5,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_animals_328812.png",
+      "totalFillablePixels": 542509,
+      "fillablePct": "51.7%",
+      "totalRegionsCount": 7,
+      "significantCount": 7,
+      "minorCount": 0,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_animals_330237.png",
+      "totalFillablePixels": 345447,
+      "fillablePct": "32.9%",
+      "totalRegionsCount": 11,
+      "significantCount": 5,
+      "minorCount": 6,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_animals_352670.png",
+      "totalFillablePixels": 189940,
+      "fillablePct": "18.1%",
+      "totalRegionsCount": 51,
+      "significantCount": 10,
+      "minorCount": 41,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_dinosaurs_1384.png",
+      "totalFillablePixels": 177501,
+      "fillablePct": "16.9%",
+      "totalRegionsCount": 64,
+      "significantCount": 9,
+      "minorCount": 55,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_dinosaurs_234370.png",
+      "totalFillablePixels": 216219,
+      "fillablePct": "20.6%",
+      "totalRegionsCount": 28,
+      "significantCount": 7,
+      "minorCount": 21,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_dinosaurs_281169.png",
+      "totalFillablePixels": 321249,
+      "fillablePct": "30.6%",
+      "totalRegionsCount": 141,
+      "significantCount": 5,
+      "minorCount": 136,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_flowers_352672.png",
+      "totalFillablePixels": 423183,
+      "fillablePct": "40.4%",
+      "totalRegionsCount": 131,
+      "significantCount": 14,
+      "minorCount": 117,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_flowers_352740.png",
+      "totalFillablePixels": 452762,
+      "fillablePct": "43.2%",
+      "totalRegionsCount": 96,
+      "significantCount": 32,
+      "minorCount": 64,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_food_177813.png",
+      "totalFillablePixels": 176273,
+      "fillablePct": "16.8%",
+      "totalRegionsCount": 34,
+      "significantCount": 3,
+      "minorCount": 31,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_food_84631.png",
+      "totalFillablePixels": 202819,
+      "fillablePct": "19.3%",
+      "totalRegionsCount": 5,
+      "significantCount": 5,
+      "minorCount": 0,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_food_8546.png",
+      "totalFillablePixels": 448454,
+      "fillablePct": "42.8%",
+      "totalRegionsCount": 6,
+      "significantCount": 4,
+      "minorCount": 2,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_scenery_132469.png",
+      "totalFillablePixels": 236570,
+      "fillablePct": "22.6%",
+      "totalRegionsCount": 38,
+      "significantCount": 18,
+      "minorCount": 20,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_scenery_234766.png",
+      "totalFillablePixels": 272027,
+      "fillablePct": "25.9%",
+      "totalRegionsCount": 8,
+      "significantCount": 8,
+      "minorCount": 0,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_sea_325114.png",
+      "totalFillablePixels": 183740,
+      "fillablePct": "17.5%",
+      "totalRegionsCount": 42,
+      "significantCount": 8,
+      "minorCount": 34,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_sea_333629.png",
+      "totalFillablePixels": 202554,
+      "fillablePct": "19.3%",
+      "totalRegionsCount": 30,
+      "significantCount": 9,
+      "minorCount": 21,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_sea_74233.png",
+      "totalFillablePixels": 207855,
+      "fillablePct": "19.8%",
+      "totalRegionsCount": 44,
+      "significantCount": 26,
+      "minorCount": 18,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_vehicles_176375.png",
+      "totalFillablePixels": 240830,
+      "fillablePct": "23.0%",
+      "totalRegionsCount": 33,
+      "significantCount": 12,
+      "minorCount": 21,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_vehicles_228075.png",
+      "totalFillablePixels": 173802,
+      "fillablePct": "16.6%",
+      "totalRegionsCount": 12,
+      "significantCount": 9,
+      "minorCount": 3,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_vehicles_298680.png",
+      "totalFillablePixels": 245380,
+      "fillablePct": "23.4%",
+      "totalRegionsCount": 54,
+      "significantCount": 7,
+      "minorCount": 47,
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "file": "template_vehicles_313982.png",
+      "totalFillablePixels": 178539,
+      "fillablePct": "17.0%",
+      "totalRegionsCount": 5,
+      "significantCount": 5,
+      "minorCount": 0,
+      "passed": true,
+      "reasons": []
+    }
+  ],
+  "failed": [
+    {
+      "file": "template_animals_353970.png",
+      "totalFillablePixels": 156701,
+      "fillablePct": "14.9%",
+      "totalRegionsCount": 125,
+      "significantCount": 2,
+      "minorCount": 123,
+      "passed": false,
+      "reasons": [
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_animals_354457.png",
+      "totalFillablePixels": 2761,
+      "fillablePct": "0.3%",
+      "totalRegionsCount": 1,
+      "significantCount": 1,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (3k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_animals_354459.png",
+      "totalFillablePixels": 4213,
+      "fillablePct": "0.4%",
+      "totalRegionsCount": 1,
+      "significantCount": 1,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (4k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_animals_354654.png",
+      "totalFillablePixels": 180972,
+      "fillablePct": "17.3%",
+      "totalRegionsCount": 146,
+      "significantCount": 2,
+      "minorCount": 144,
+      "passed": false,
+      "reasons": [
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_dinosaurs_23508.png",
+      "totalFillablePixels": 5245,
+      "fillablePct": "0.5%",
+      "totalRegionsCount": 7,
+      "significantCount": 2,
+      "minorCount": 5,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (5k < 150k px)",
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_dinosaurs_28420.png",
+      "totalFillablePixels": 13502,
+      "fillablePct": "1.3%",
+      "totalRegionsCount": 2,
+      "significantCount": 2,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (14k < 150k px)",
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_dinosaurs_330251.png",
+      "totalFillablePixels": 516,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 1,
+      "significantCount": 0,
+      "minorCount": 1,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (1k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_dinosaurs_330252.png",
+      "totalFillablePixels": 36,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 3,
+      "significantCount": 0,
+      "minorCount": 3,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (0k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_flowers_230020.png",
+      "totalFillablePixels": 8493,
+      "fillablePct": "0.8%",
+      "totalRegionsCount": 188,
+      "significantCount": 1,
+      "minorCount": 187,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (8k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_flowers_236029.png",
+      "totalFillablePixels": 0,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 0,
+      "significantCount": 0,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (0k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_flowers_262028.png",
+      "totalFillablePixels": 20165,
+      "fillablePct": "1.9%",
+      "totalRegionsCount": 1,
+      "significantCount": 1,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (20k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_flowers_333586.png",
+      "totalFillablePixels": 126982,
+      "fillablePct": "12.1%",
+      "totalRegionsCount": 324,
+      "significantCount": 13,
+      "minorCount": 311,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (127k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_flowers_354067.png",
+      "totalFillablePixels": 249869,
+      "fillablePct": "23.8%",
+      "totalRegionsCount": 10,
+      "significantCount": 1,
+      "minorCount": 9,
+      "passed": false,
+      "reasons": [
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_flowers_354124.png",
+      "totalFillablePixels": 135956,
+      "fillablePct": "13.0%",
+      "totalRegionsCount": 36,
+      "significantCount": 1,
+      "minorCount": 35,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (136k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_food_177814.png",
+      "totalFillablePixels": 140818,
+      "fillablePct": "13.4%",
+      "totalRegionsCount": 3,
+      "significantCount": 1,
+      "minorCount": 2,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (141k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_food_245073.png",
+      "totalFillablePixels": 236994,
+      "fillablePct": "22.6%",
+      "totalRegionsCount": 405,
+      "significantCount": 2,
+      "minorCount": 403,
+      "passed": false,
+      "reasons": [
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_food_256766.png",
+      "totalFillablePixels": 0,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 0,
+      "significantCount": 0,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (0k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_letters_190567.png",
+      "totalFillablePixels": 113902,
+      "fillablePct": "10.9%",
+      "totalRegionsCount": 11,
+      "significantCount": 6,
+      "minorCount": 5,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (114k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_letters_190572.png",
+      "totalFillablePixels": 25728,
+      "fillablePct": "2.5%",
+      "totalRegionsCount": 7,
+      "significantCount": 4,
+      "minorCount": 3,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (26k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_letters_190575.png",
+      "totalFillablePixels": 2926,
+      "fillablePct": "0.3%",
+      "totalRegionsCount": 2,
+      "significantCount": 1,
+      "minorCount": 1,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (3k < 150k px)",
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_letters_87049.png",
+      "totalFillablePixels": 113035,
+      "fillablePct": "10.8%",
+      "totalRegionsCount": 148,
+      "significantCount": 10,
+      "minorCount": 138,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (113k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_letters_87061.png",
+      "totalFillablePixels": 116049,
+      "fillablePct": "11.1%",
+      "totalRegionsCount": 7,
+      "significantCount": 6,
+      "minorCount": 1,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (116k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_scenery_16504.png",
+      "totalFillablePixels": 54270,
+      "fillablePct": "5.2%",
+      "totalRegionsCount": 27,
+      "significantCount": 5,
+      "minorCount": 22,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (54k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_scenery_235489.png",
+      "totalFillablePixels": 84503,
+      "fillablePct": "8.1%",
+      "totalRegionsCount": 4,
+      "significantCount": 3,
+      "minorCount": 1,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (85k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_sea_174579.png",
+      "totalFillablePixels": 139518,
+      "fillablePct": "13.3%",
+      "totalRegionsCount": 21,
+      "significantCount": 6,
+      "minorCount": 15,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (140k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_sea_215988.png",
+      "totalFillablePixels": 0,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 0,
+      "significantCount": 0,
+      "minorCount": 0,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (0k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_sea_245072.png",
+      "totalFillablePixels": 259041,
+      "fillablePct": "24.7%",
+      "totalRegionsCount": 5,
+      "significantCount": 1,
+      "minorCount": 4,
+      "passed": false,
+      "reasons": [
+        "Quá ít vùng lớn (1 < 3)"
+      ]
+    },
+    {
+      "file": "template_sea_290490.png",
+      "totalFillablePixels": 111314,
+      "fillablePct": "10.6%",
+      "totalRegionsCount": 88,
+      "significantCount": 24,
+      "minorCount": 64,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (111k < 150k px)"
+      ]
+    },
+    {
+      "file": "template_vehicles_181232.png",
+      "totalFillablePixels": 11219,
+      "fillablePct": "1.1%",
+      "totalRegionsCount": 7,
+      "significantCount": 2,
+      "minorCount": 5,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (11k < 150k px)",
+        "Quá ít vùng lớn (2 < 3)"
+      ]
+    },
+    {
+      "file": "template_vehicles_231473.png",
+      "totalFillablePixels": 60,
+      "fillablePct": "0.0%",
+      "totalRegionsCount": 12,
+      "significantCount": 0,
+      "minorCount": 12,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (0k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    },
+    {
+      "file": "template_vehicles_323440.png",
+      "totalFillablePixels": 11578,
+      "fillablePct": "1.1%",
+      "totalRegionsCount": 21,
+      "significantCount": 0,
+      "minorCount": 21,
+      "passed": false,
+      "reasons": [
+        "Diện tích quá nhỏ (12k < 150k px)",
+        "Quá ít vùng lớn (0 < 3)"
+      ]
+    }
+  ]
+}
