@@ -61,6 +61,8 @@ data class EditorUiState(
     val regionCount: Int = 0,
     val fillBitmapRevision: Int = 0,
     val strokeRevision: Int = 0,
+    val backgroundPhotoRevision: Int = 0,
+    val hasBackgroundPhoto: Boolean = false,
     val isSaved: Boolean = false,
     val isExporting: Boolean = false,
     val exportProgress: Float = 0f
@@ -81,6 +83,46 @@ class EditorViewModel(
     private var regionFiller: RegionFiller? = null
     var templateBitmap: Bitmap? = null
         private set
+
+    var backgroundPhotoBitmap: Bitmap? = null
+        private set
+
+    fun setBackgroundPhoto(bitmap: Bitmap?) {
+        backgroundPhotoBitmap = bitmap
+        _uiState.update {
+            it.copy(
+                backgroundPhotoRevision = it.backgroundPhotoRevision + 1,
+                hasBackgroundPhoto = bitmap != null
+            )
+        }
+    }
+
+    fun loadBackgroundPhotoFromUri(uri: android.net.Uri) {
+        viewModelScope.launch {
+            val decoded = withContext(Dispatchers.IO) {
+                try {
+                    val opts = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+                    context.contentResolver.openInputStream(uri)?.use {
+                        BitmapFactory.decodeStream(it, null, opts)
+                    }
+                    val maxDim = maxOf(opts.outWidth, opts.outHeight)
+                    var sampleSize = 1
+                    while (maxDim / sampleSize > 1920) {
+                        sampleSize *= 2
+                    }
+                    val decodeOpts = BitmapFactory.Options().apply { inSampleSize = sampleSize }
+                    context.contentResolver.openInputStream(uri)?.use {
+                        BitmapFactory.decodeStream(it, null, decodeOpts)
+                    }
+                } catch (_: Exception) {
+                    null
+                }
+            }
+            if (decoded != null) {
+                setBackgroundPhoto(decoded)
+            }
+        }
+    }
 
     val templates = templateRepository.getTemplates()
 
@@ -662,8 +704,22 @@ class EditorViewModel(
         val composite = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888)
         val canvas = android.graphics.Canvas(composite)
 
-        // 1. Background (Black)
+        // 1. Background (Black + optional Photo)
         canvas.drawColor(backgroundColor)
+        val photo = backgroundPhotoBitmap
+        if (photo != null && !photo.isRecycled && photo.width > 0 && photo.height > 0) {
+            val scale = maxOf(width.toFloat() / photo.width, height.toFloat() / photo.height)
+            val drawW = photo.width * scale
+            val drawH = photo.height * scale
+            val left = (width - drawW) / 2f
+            val top = (height - drawH) / 2f
+            canvas.drawBitmap(
+                photo,
+                null,
+                android.graphics.RectF(left, top, left + drawW, top + drawH),
+                Paint(Paint.FILTER_BITMAP_FLAG)
+            )
+        }
 
         // 2. Fill Layer
         if (fillBitmap != null) {

@@ -49,6 +49,8 @@ fun FreeDrawCanvas(
     fillBitmap: Bitmap? = null,
     fillBitmapRevision: Int = 0,
     templateBitmap: Bitmap? = null,
+    backgroundPhotoBitmap: Bitmap? = null,
+    backgroundPhotoRevision: Int = 0,
     modifier: Modifier = Modifier
 ) {
     val validWidth = canvasWidth.coerceAtLeast(1)
@@ -79,6 +81,8 @@ fun FreeDrawCanvas(
         val observedStrokeRev = strokeRevision
         @Suppress("UNUSED_VARIABLE")
         val observedFillRev = fillBitmapRevision
+        @Suppress("UNUSED_VARIABLE")
+        val observedPhotoRev = backgroundPhotoRevision
 
         val scaleX = if (validWidth > 0) size.width / validWidth else 1f
         val scaleY = if (validHeight > 0) size.height / validHeight else 1f
@@ -104,6 +108,25 @@ fun FreeDrawCanvas(
 
         // 1. Draw solid background
         drawRect(color = backgroundColor)
+
+        // 1b. Draw optional background photo (Doodle on Photos - center crop)
+        if (backgroundPhotoBitmap != null && !backgroundPhotoBitmap.isRecycled &&
+            backgroundPhotoBitmap.width > 0 && backgroundPhotoBitmap.height > 0
+        ) {
+            val scale = maxOf(
+                size.width / backgroundPhotoBitmap.width.toFloat(),
+                size.height / backgroundPhotoBitmap.height.toFloat()
+            )
+            val drawW = (backgroundPhotoBitmap.width * scale).toInt()
+            val drawH = (backgroundPhotoBitmap.height * scale).toInt()
+            val offsetX = ((size.width - drawW) / 2f).toInt()
+            val offsetY = ((size.height - drawH) / 2f).toInt()
+            drawImage(
+                image = backgroundPhotoBitmap.asImageBitmap(),
+                dstOffset = IntOffset(offsetX, offsetY),
+                dstSize = IntSize(drawW, drawH)
+            )
+        }
 
         // 2. Draw Region Fill Layer (under the template outlines)
         if (fillBitmap != null && !fillBitmap.isRecycled) {

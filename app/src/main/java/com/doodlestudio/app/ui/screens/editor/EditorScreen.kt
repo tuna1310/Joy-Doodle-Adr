@@ -4,6 +4,8 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -108,6 +110,23 @@ fun EditorScreen(
     var showShareSpeedDial by remember { mutableStateOf(false) }
     var showTimelapseDialog by remember { mutableStateOf(false) }
     var showTemplatePicker by remember { mutableStateOf(false) }
+    var showPhotoSourceDialog by remember { mutableStateOf(false) }
+
+    val galleryPhotoLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            viewModel.loadBackgroundPhotoFromUri(uri)
+        }
+    }
+
+    val cameraPhotoLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.TakePicturePreview()
+    ) { bitmap: Bitmap? ->
+        if (bitmap != null) {
+            viewModel.setBackgroundPhoto(bitmap)
+        }
+    }
     val templates by viewModel.templates.collectAsState(initial = emptyList())
     var previewThumbnail by remember { mutableStateOf<Bitmap?>(null) }
     var exportResult by remember { mutableStateOf<ExportResult?>(null) }
@@ -263,6 +282,8 @@ fun EditorScreen(
                     fillBitmap = viewModel.fillBitmap,
                     fillBitmapRevision = uiState.fillBitmapRevision,
                     templateBitmap = viewModel.templateBitmap,
+                    backgroundPhotoBitmap = viewModel.backgroundPhotoBitmap,
+                    backgroundPhotoRevision = uiState.backgroundPhotoRevision,
                     modifier = Modifier.fillMaxSize()
                 )
             }
@@ -520,13 +541,48 @@ fun EditorScreen(
                 },
                 onPhotoClick = {
                     showShareSpeedDial = false
-                    // Stub for photo import
+                    showPhotoSourceDialog = true
                 },
                 onShareClick = {
                     showShareSpeedDial = false
                     viewModel.saveArtwork { success ->
                         if (success) {
                             shareArtworkImage(context, viewModel)
+                        }
+                    }
+                }
+            )
+        }
+
+        // Doodle on Photo Source Dialog
+        if (showPhotoSourceDialog) {
+            AlertDialog(
+                onDismissRequest = { showPhotoSourceDialog = false },
+                title = { Text(text = "Doodle on Photo") },
+                text = { Text(text = "Import a photo from your gallery or take a picture to draw neon strokes on top of it.") },
+                confirmButton = {
+                    TextButton(onClick = {
+                        showPhotoSourceDialog = false
+                        galleryPhotoLauncher.launch("image/*")
+                    }) {
+                        Text("Gallery")
+                    }
+                },
+                dismissButton = {
+                    Row {
+                        TextButton(onClick = {
+                            showPhotoSourceDialog = false
+                            cameraPhotoLauncher.launch(null)
+                        }) {
+                            Text("Camera")
+                        }
+                        if (uiState.hasBackgroundPhoto) {
+                            TextButton(onClick = {
+                                showPhotoSourceDialog = false
+                                viewModel.setBackgroundPhoto(null)
+                            }) {
+                                Text("Remove")
+                            }
                         }
                     }
                 }
