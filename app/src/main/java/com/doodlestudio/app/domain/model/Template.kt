@@ -25,15 +25,15 @@ data class Template(
 }
 
 enum class TemplateCategory(val id: String, val displayNameEn: String, val displayNameVi: String) {
-    ALL("all", "All", "Tất cả"),
-    ANIMALS("animals", "Animals", "Động vật"),
-    VEHICLES("vehicles", "Vehicles", "Phương tiện"),
-    SEA("sea", "Sea", "Biển"),
-    FLOWERS("flowers", "Flowers", "Hoa lá"),
-    DINOSAURS("dinosaurs", "Dinosaurs", "Khủng long"),
-    FOOD("food", "Food", "Trái cây & Đồ ăn"),
-    SCENERY("scenery", "Scenery", "Phong cảnh"),
-    LETTERS("letters", "Letters", "Chữ cái & Ký hiệu");
+    ALL("all", "All", "All"),
+    ANIMALS("animals", "Animals", "Animals"),
+    VEHICLES("vehicles", "Vehicles", "Vehicles"),
+    SEA("sea", "Sea", "Sea"),
+    FLOWERS("flowers", "Flowers", "Flowers"),
+    DINOSAURS("dinosaurs", "Dinosaurs", "Dinosaurs"),
+    FOOD("food", "Food", "Food"),
+    SCENERY("scenery", "Scenery", "Scenery"),
+    LETTERS("letters", "Letters", "Letters");
 
     companion object {
         fun fromId(id: String?): TemplateCategory = entries.firstOrNull {
@@ -43,10 +43,10 @@ enum class TemplateCategory(val id: String, val displayNameEn: String, val displ
 }
 
 enum class TemplateDifficulty(val id: String, val displayNameEn: String, val displayNameVi: String) {
-    ALL("all", "All", "Tất cả"),
-    EASY("easy", "Easy", "Dễ"),
-    MEDIUM("medium", "Medium", "Vừa"),
-    HARD("hard", "Detailed", "Chi tiết");
+    ALL("all", "All", "All"),
+    EASY("easy", "Easy", "Easy"),
+    MEDIUM("medium", "Medium", "Medium"),
+    HARD("hard", "Detailed", "Detailed");
 
     companion object {
         fun fromId(id: String?): TemplateDifficulty = entries.firstOrNull { it.id.equals(id, ignoreCase = true) } ?: ALL

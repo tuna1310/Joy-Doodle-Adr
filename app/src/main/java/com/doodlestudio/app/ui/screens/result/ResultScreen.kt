@@ -167,7 +167,7 @@ fun ResultScreen(
                 Spacer(modifier = Modifier.width(10.dp))
                 Text(
                     text = if (isFallback) {
-                        "Đã lưu ảnh PNG tĩnh (thiết bị không hỗ trợ mã hóa video)."
+                        "Saved static PNG image (video encoding unsupported on this device)."
                     } else {
                         stringResource(R.string.saved_to_gallery)
                     },
@@ -197,7 +197,7 @@ fun ResultScreen(
                                     putExtra(Intent.EXTRA_STREAM, uri)
                                     addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                                 }
-                                context.startActivity(Intent.createChooser(shareIntent, "Chia sẻ tác phẩm"))
+                                context.startActivity(Intent.createChooser(shareIntent, "Share Artwork"))
                             } catch (e: Exception) {
                                 // Fallback generic share
                             }

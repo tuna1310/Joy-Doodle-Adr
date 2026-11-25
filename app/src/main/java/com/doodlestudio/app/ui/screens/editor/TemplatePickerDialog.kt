@@ -107,14 +107,14 @@ fun TemplatePickerDialog(
                             Text(text = "🎨", fontSize = 22.sp)
                             Spacer(modifier = Modifier.width(8.dp))
                             Text(
-                                text = "Tranh tô màu",
+                                text = "Coloring Pages",
                                 color = Color.White,
                                 fontSize = 20.sp,
                                 fontWeight = FontWeight.Bold
                             )
                         }
                         Text(
-                            text = "Chọn hình mẫu để tô màu neon rực rỡ",
+                            text = "Pick a template to color with bright neon",
                             color = Color(0xFF94A3B8),
                             fontSize = 12.sp
                         )
@@ -228,13 +228,13 @@ fun TemplatePickerDialog(
                                 }
                                 Spacer(modifier = Modifier.height(10.dp))
                                 Text(
-                                    text = "Vẽ tự do",
+                                    text = "Free Draw",
                                     color = Color.White,
                                     fontSize = 15.sp,
                                     fontWeight = FontWeight.Bold
                                 )
                                 Text(
-                                    text = "Trang vẽ trắng",
+                                    text = "Blank canvas",
                                     color = Color(0xFF94A3B8),
                                     fontSize = 11.sp
                                 )
@@ -327,7 +327,7 @@ fun TemplatePickerDialog(
                                     )
                                     if (template.significantRegions > 0) {
                                         Text(
-                                            text = "${template.significantRegions} vùng",
+                                            text = "${template.significantRegions} regions",
                                             color = NeonYellow,
                                             fontSize = 10.sp,
                                             fontWeight = FontWeight.Bold

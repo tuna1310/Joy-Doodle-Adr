@@ -251,7 +251,7 @@ fun CustomColorPickerDialog(
     AlertDialog(
         onDismissRequest = onDismiss,
         title = {
-            Text(text = "Chọn màu tùy chỉnh", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+            Text(text = "Custom Color Picker", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 18.sp)
         },
         text = {
             Column(
@@ -270,7 +270,7 @@ fun CustomColorPickerDialog(
 
                 // Rainbow Hue Slider
                 Column(modifier = Modifier.fillMaxWidth()) {
-                    Text(text = "Sắc màu (Hue): ${hue.toInt()}°", color = Color.LightGray, fontSize = 12.sp)
+                    Text(text = "Hue: ${hue.toInt()}°", color = Color.LightGray, fontSize = 12.sp)
                     Slider(
                         value = hue,
                         onValueChange = { hue = it },
@@ -285,7 +285,7 @@ fun CustomColorPickerDialog(
 
                 // Brightness Slider
                 Column(modifier = Modifier.fillMaxWidth()) {
-                    Text(text = "Độ sáng: ${(lightness * 100).toInt()}%", color = Color.LightGray, fontSize = 12.sp)
+                    Text(text = "Lightness: ${(lightness * 100).toInt()}%", color = Color.LightGray, fontSize = 12.sp)
                     Slider(
                         value = lightness,
                         onValueChange = { lightness = it },
@@ -301,12 +301,12 @@ fun CustomColorPickerDialog(
         },
         confirmButton = {
             TextButton(onClick = { onColorChosen(currentColor) }) {
-                Text(text = "Chọn màu này", color = NeonCyan, fontWeight = FontWeight.Bold)
+                Text(text = "Select Color", color = NeonCyan, fontWeight = FontWeight.Bold)
             }
         },
         dismissButton = {
             TextButton(onClick = onDismiss) {
-                Text(text = "Hủy", color = Color.Gray)
+                Text(text = "Cancel", color = Color.Gray)
             }
         },
         containerColor = Color(0xFF1E1E2E),

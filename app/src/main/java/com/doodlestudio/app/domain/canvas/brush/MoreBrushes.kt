@@ -14,7 +14,7 @@ import com.doodlestudio.app.domain.model.PointF
 class CrayonChalkBrush : BrushEffect(
     id = "CRAYON_CHALK",
     displayNameEn = "Crayon",
-    displayNameVi = "Phấn sáp",
+    displayNameVi = "Crayon",
     defaultSize = 18f
 ) {
     override fun drawLive(
@@ -167,7 +167,7 @@ class CrayonChalkBrush : BrushEffect(
 class SolidMarkerBrush : BrushEffect(
     id = "SOLID_MARKER",
     displayNameEn = "Solid Marker",
-    displayNameVi = "Bút dạ khối",
+    displayNameVi = "Solid Marker",
     defaultSize = 22f
 ) {
     override fun drawLive(
@@ -274,7 +274,7 @@ class SolidMarkerBrush : BrushEffect(
 class DottedPearlBrush : BrushEffect(
     id = "DOTTED_PEARL",
     displayNameEn = "Dotted Pearl",
-    displayNameVi = "Chuỗi hạt sáng",
+    displayNameVi = "Dotted Pearl",
     defaultSize = 14f
 ) {
     override fun drawLive(
@@ -426,7 +426,7 @@ class DottedPearlBrush : BrushEffect(
 class SoftBlurBrush : BrushEffect(
     id = "SOFT_BLUR",
     displayNameEn = "Soft Blur",
-    displayNameVi = "Neon bóng mờ",
+    displayNameVi = "Soft Blur",
     defaultSize = 16f
 ) {
     override fun drawLive(
@@ -545,7 +545,7 @@ class SoftBlurBrush : BrushEffect(
 class ConcentricRingsBrush : BrushEffect(
     id = "CONCENTRIC_RINGS",
     displayNameEn = "Rings",
-    displayNameVi = "Vòng tròn đồng tâm",
+    displayNameVi = "Rings",
     defaultSize = 20f
 ) {
     override fun drawLive(
@@ -688,7 +688,7 @@ class ConcentricRingsBrush : BrushEffect(
 class SparklerBrush : BrushEffect(
     id = "SPARKLER",
     displayNameEn = "Sparkler",
-    displayNameVi = "Pháo bông que",
+    displayNameVi = "Sparkler",
     defaultSize = 14f
 ) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) =
@@ -738,7 +738,7 @@ class SparklerBrush : BrushEffect(
 // ─────────────────────────────────────────────────────────────────────────────
 // 12. Fireworks Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class FireworksBrush : BrushEffect("FIREWORKS", "Fireworks", "Pháo hoa", 16f) {
+class FireworksBrush : BrushEffect("FIREWORKS", "Fireworks", "Fireworks", 16f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFFFD700.toInt()
@@ -778,7 +778,7 @@ class FireworksBrush : BrushEffect("FIREWORKS", "Fireworks", "Pháo hoa", 16f) {
 // ─────────────────────────────────────────────────────────────────────────────
 // 13. Neon Stars Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class NeonStarsBrush : BrushEffect("NEON_STARS", "Stars", "Ngôi sao neon", 16f) {
+class NeonStarsBrush : BrushEffect("NEON_STARS", "Stars", "Stars", 16f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFFF4081.toInt()
@@ -807,7 +807,7 @@ class NeonStarsBrush : BrushEffect("NEON_STARS", "Stars", "Ngôi sao neon", 16f)
 // ─────────────────────────────────────────────────────────────────────────────
 // 14. Cross Sparkles Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class CrossSparklesBrush : BrushEffect("CROSS_SPARKLES", "Sparkles", "Kim cương lấp lánh", 14f) {
+class CrossSparklesBrush : BrushEffect("CROSS_SPARKLES", "Sparkles", "Sparkles", 14f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = AndroidColor.WHITE
@@ -843,7 +843,7 @@ class CrossSparklesBrush : BrushEffect("CROSS_SPARKLES", "Sparkles", "Kim cươn
 // ─────────────────────────────────────────────────────────────────────────────
 // 15. Bokeh Dots Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class BokehDotsBrush : BrushEffect("BOKEH_DOTS", "Bokeh", "Đốm sáng bokeh", 18f) {
+class BokehDotsBrush : BrushEffect("BOKEH_DOTS", "Bokeh", "Bokeh", 18f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0x88BA68C8.toInt()
@@ -871,7 +871,7 @@ class BokehDotsBrush : BrushEffect("BOKEH_DOTS", "Bokeh", "Đốm sáng bokeh", 
 // ─────────────────────────────────────────────────────────────────────────────
 // 16. Big Cross Star Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class BigCrossStarBrush : BrushEffect("BIG_CROSS_STAR", "Cross Star", "Sao chữ thập", 16f) {
+class BigCrossStarBrush : BrushEffect("BIG_CROSS_STAR", "Cross Star", "Cross Star", 16f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFFF1744.toInt()
@@ -906,7 +906,7 @@ class BigCrossStarBrush : BrushEffect("BIG_CROSS_STAR", "Cross Star", "Sao chữ
 // ─────────────────────────────────────────────────────────────────────────────
 // 17. Purple Sparkles Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class PurpleSparklesBrush : BrushEffect("PURPLE_SPARKLES", "Purple Sparkle", "Lấp lánh tím", 14f) {
+class PurpleSparklesBrush : BrushEffect("PURPLE_SPARKLES", "Purple Sparkle", "Purple Sparkle", 14f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFE040FB.toInt()
@@ -932,7 +932,7 @@ class PurpleSparklesBrush : BrushEffect("PURPLE_SPARKLES", "Purple Sparkle", "L�
 // ─────────────────────────────────────────────────────────────────────────────
 // 18. Fairy Dust Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class FairyDustBrush : BrushEffect("FAIRY_DUST", "Fairy Dust", "Dải bụi tiên", 14f) {
+class FairyDustBrush : BrushEffect("FAIRY_DUST", "Fairy Dust", "Fairy Dust", 14f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFF40C4FF.toInt()
@@ -958,7 +958,7 @@ class FairyDustBrush : BrushEffect("FAIRY_DUST", "Fairy Dust", "Dải bụi tiê
 // ─────────────────────────────────────────────────────────────────────────────
 // 19. Snowflakes Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class SnowflakesBrush : BrushEffect("SNOWFLAKES", "Snowflakes", "Hoa tuyết", 20f) {
+class SnowflakesBrush : BrushEffect("SNOWFLAKES", "Snowflakes", "Snowflakes", 20f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFB3E5FC.toInt()
@@ -998,7 +998,7 @@ class SnowflakesBrush : BrushEffect("SNOWFLAKES", "Snowflakes", "Hoa tuyết", 2
 // ─────────────────────────────────────────────────────────────────────────────
 // 20. Heart Bubbles Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class HeartBubblesBrush : BrushEffect("HEART_BUBBLES", "Heart Bubbles", "Bong bóng tim", 22f) {
+class HeartBubblesBrush : BrushEffect("HEART_BUBBLES", "Heart Bubbles", "Heart Bubbles", 22f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFFFF5252.toInt()
@@ -1026,7 +1026,7 @@ class HeartBubblesBrush : BrushEffect("HEART_BUBBLES", "Heart Bubbles", "Bong b�
 // ─────────────────────────────────────────────────────────────────────────────
 // 21. Soap Bubbles Brush
 // ─────────────────────────────────────────────────────────────────────────────
-class SoapBubblesBrush : BrushEffect("SOAP_BUBBLES", "Soap Bubbles", "Bong bóng nước", 22f) {
+class SoapBubblesBrush : BrushEffect("SOAP_BUBBLES", "Soap Bubbles", "Soap Bubbles", 22f) {
     override fun drawLive(canvas: Canvas, points: List<PointF>, color: Int, strokeWidth: Float, alpha: Float, scaleX: Float, scaleY: Float, seed: Long) {
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
             this.color = 0xFF80D8FF.toInt()

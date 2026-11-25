@@ -182,8 +182,8 @@ fun GalleryScreen(
         selectedArtworkToDelete?.let { art ->
             AlertDialog(
                 onDismissRequest = { selectedArtworkToDelete = null },
-                title = { Text(text = "Xóa tác phẩm") },
-                text = { Text(text = "Bạn có chắc chắn muốn xóa tác phẩm này khỏi bộ sưu tập không?") },
+                title = { Text(text = "Delete Artwork") },
+                text = { Text(text = "Are you sure you want to delete this artwork from your gallery?") },
                 confirmButton = {
                     TextButton(
                         onClick = {
@@ -191,12 +191,12 @@ fun GalleryScreen(
                             selectedArtworkToDelete = null
                         }
                     ) {
-                        Text(text = "Xóa", color = NeonCoralButton)
+                        Text(text = "Delete", color = NeonCoralButton)
                     }
                 },
                 dismissButton = {
                     TextButton(onClick = { selectedArtworkToDelete = null }) {
-                        Text(text = "Hủy", color = Color.Gray)
+                        Text(text = "Cancel", color = Color.Gray)
                     }
                 },
                 containerColor = Color.White,

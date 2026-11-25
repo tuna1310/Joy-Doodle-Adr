@@ -145,7 +145,7 @@ fun TimelapsePreviewDialog(
                 if (isExporting) {
                     // Exporting in progress
                     Text(
-                        text = "Đang quay video tranh vẽ...",
+                        text = "Rendering timelapse video...",
                         color = Color.White,
                         fontSize = 17.sp,
                         fontWeight = FontWeight.Bold
@@ -172,14 +172,14 @@ fun TimelapsePreviewDialog(
                     when (exportResult) {
                         is ExportResult.SuccessVideo -> {
                             Text(
-                                text = "🎉 Đã quay và lưu video!",
+                                text = "🎉 Video recorded & saved!",
                                 color = Color(0xFF00E676),
                                 fontSize = 18.sp,
                                 fontWeight = FontWeight.Bold
                             )
                             Spacer(modifier = Modifier.height(6.dp))
                             Text(
-                                text = "Đã lưu vào Thư viện video của bạn",
+                                text = "Saved to your Videos gallery",
                                 color = Color.LightGray,
                                 fontSize = 13.sp
                             )
@@ -205,7 +205,7 @@ fun TimelapsePreviewDialog(
                                             .clickable { onShareExportedVideo?.invoke(uri) }
                                             .padding(horizontal = 16.dp, vertical = 10.dp)
                                     ) {
-                                        Text(text = "📤 Chia sẻ", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                                        Text(text = "📤 Share", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
                                     }
                                 }
 
@@ -216,20 +216,20 @@ fun TimelapsePreviewDialog(
                                         .clickable(onClick = onDismiss)
                                         .padding(horizontal = 16.dp, vertical = 10.dp)
                                 ) {
-                                    Text(text = "Đóng", color = Color.White, fontSize = 14.sp)
+                                    Text(text = "Close", color = Color.White, fontSize = 14.sp)
                                 }
                             }
                         }
                         is ExportResult.FallbackImage -> {
                             Text(
-                                text = "✨ Đã lưu ảnh tác phẩm!",
+                                text = "✨ Artwork image saved!",
                                 color = Color(0xFF00E676),
                                 fontSize = 18.sp,
                                 fontWeight = FontWeight.Bold
                             )
                             Spacer(modifier = Modifier.height(6.dp))
                             Text(
-                                text = "Đã lưu vào Thư viện ảnh (DoodleStudio)",
+                                text = "Saved to Photos gallery (DoodleStudio)",
                                 color = Color.LightGray,
                                 fontSize = 13.sp
                             )
@@ -241,12 +241,12 @@ fun TimelapsePreviewDialog(
                                     .clickable(onClick = onDismiss)
                                     .padding(horizontal = 24.dp, vertical = 10.dp)
                             ) {
-                                Text(text = "Đóng", color = Color.White, fontSize = 14.sp)
+                                Text(text = "Close", color = Color.White, fontSize = 14.sp)
                             }
                         }
                         is ExportResult.Error -> {
                             Text(
-                                text = "⚠️ Không thể xuất video",
+                                text = "⚠️ Could not export video",
                                 color = Color(0xFFFF5252),
                                 fontSize = 18.sp,
                                 fontWeight = FontWeight.Bold
@@ -265,7 +265,7 @@ fun TimelapsePreviewDialog(
                                     .clickable(onClick = onDismiss)
                                     .padding(horizontal = 24.dp, vertical = 10.dp)
                             ) {
-                                Text(text = "Đóng", color = Color.White, fontSize = 14.sp)
+                                Text(text = "Close", color = Color.White, fontSize = 14.sp)
                             }
                         }
                     }

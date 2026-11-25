@@ -62,7 +62,7 @@ fun EraserOptionsPanel(
             ) {
                 Text(text = "🧹", fontSize = 20.sp)
                 Text(
-                    text = "Cỡ tẩy (Eraser Size)",
+                    text = "Eraser Size",
                     color = Color.White,
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Bold
@@ -97,10 +97,10 @@ fun EraserOptionsPanel(
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             val presets = listOf(
-                "Nhỏ" to 18f,
-                "Vừa" to 36f,
+                "Small" to 18f,
+                "Medium" to 36f,
                 "To" to 64f,
-                "Rất to" to 96f
+                "XL" to 96f
             )
 
             presets.forEach { (label, size) ->

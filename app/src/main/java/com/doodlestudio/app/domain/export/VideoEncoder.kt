@@ -54,7 +54,7 @@ class VideoEncoder(
             return@withContext exportFallback(
                 actionLog = actionLog,
                 templateBitmap = templateBitmap,
-                reason = "Dung lượng bộ nhớ không đủ (yêu cầu tối thiểu 50MB)"
+                reason = "Insufficient storage space (at least 50MB required)"
             )
         }
 
@@ -63,7 +63,7 @@ class VideoEncoder(
             return@withContext exportFallback(
                 actionLog = actionLog,
                 templateBitmap = templateBitmap,
-                reason = "Thiết bị không hỗ trợ bộ mã hóa video H.264 (video/avc)"
+                reason = "Device does not support H.264 (video/avc) video encoding"
             )
         }
 
@@ -151,7 +151,7 @@ class VideoEncoder(
             exportFallback(
                 actionLog = actionLog,
                 templateBitmap = templateBitmap,
-                reason = "Lỗi mã hóa video: ${e.message ?: "Unknown"}. Đã chuyển sang xuất ảnh tĩnh chất lượng cao."
+                reason = "Video encoding error: ${e.message ?: "Unknown"}. Falling back to high-quality PNG image."
             )
         }
     }
@@ -220,7 +220,7 @@ class VideoEncoder(
                 reason = reason
             )
         } catch (e: Exception) {
-            ExportResult.Error("Xuất tác phẩm thất bại: ${e.message}")
+            ExportResult.Error("Artwork export failed: ${e.message}")
         }
     }
 }

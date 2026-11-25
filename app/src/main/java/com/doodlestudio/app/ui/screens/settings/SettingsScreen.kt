@@ -126,7 +126,7 @@ fun SettingsScreen(
                     SettingsRowItem(
                         icon = Icons.Default.Info,
                         title = stringResource(R.string.settings_language),
-                        subtitle = "English / Tiếng Việt",
+                        subtitle = "English",
                         onClick = { /* Auto system locale */ }
                     )
 

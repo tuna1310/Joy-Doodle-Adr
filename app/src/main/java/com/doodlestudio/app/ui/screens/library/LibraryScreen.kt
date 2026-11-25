@@ -115,7 +115,7 @@ fun LibraryScreen(
                 FilterChip(
                     selected = !uiState.isFavoritesOnly,
                     onClick = { viewModel.setFavoritesOnly(false) },
-                    label = { Text("Tất cả (${uiState.artworks.size.takeIf { !uiState.isFavoritesOnly } ?: "..."})") },
+                    label = { Text("All (${uiState.artworks.size.takeIf { !uiState.isFavoritesOnly } ?: "..."})") },
                     colors = FilterChipDefaults.filterChipColors(
                         selectedContainerColor = CoralPink.copy(alpha = 0.2f),
                         selectedLabelColor = CoralPink
@@ -124,7 +124,7 @@ fun LibraryScreen(
                 FilterChip(
                     selected = uiState.isFavoritesOnly,
                     onClick = { viewModel.setFavoritesOnly(true) },
-                    label = { Text("Yêu thích") },
+                    label = { Text("Favorites") },
                     colors = FilterChipDefaults.filterChipColors(
                         selectedContainerColor = CoralPink.copy(alpha = 0.2f),
                         selectedLabelColor = CoralPink
@@ -153,7 +153,7 @@ fun LibraryScreen(
                         )
                         Spacer(modifier = Modifier.height(16.dp))
                         Text(
-                            text = if (uiState.isFavoritesOnly) "Chưa có tác phẩm yêu thích nào." else "Chưa có tác phẩm nào được lưu.",
+                            text = if (uiState.isFavoritesOnly) "No favorite artworks yet." else "No saved artworks yet.",
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.SemiBold,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -161,7 +161,7 @@ fun LibraryScreen(
                         )
                         Spacer(modifier = Modifier.height(6.dp))
                         Text(
-                            text = "Tô màu hoặc vẽ tự do rồi nhấn Lưu để lưu giữ tác phẩm của bạn.",
+                            text = "Color a template or free-draw, then tap Save to keep your artwork.",
                             style = MaterialTheme.typography.bodySmall,
                             color = Color.Gray,
                             textAlign = TextAlign.Center
@@ -194,8 +194,8 @@ fun LibraryScreen(
     if (deletingArtworkId != null) {
         AlertDialog(
             onDismissRequest = { deletingArtworkId = null },
-            title = { Text("Xác nhận xóa") },
-            text = { Text("Bạn có chắc chắn muốn xóa tác phẩm này không? Thao tác này không thể hoàn tác.") },
+            title = { Text("Confirm Delete") },
+            text = { Text("Are you sure you want to delete this artwork? This action cannot be undone.") },
             confirmButton = {
                 Button(
                     onClick = {
@@ -207,12 +207,12 @@ fun LibraryScreen(
                     },
                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
                 ) {
-                    Text("Xóa", color = Color.White)
+                    Text("Delete", color = Color.White)
                 }
             },
             dismissButton = {
                 TextButton(onClick = { deletingArtworkId = null }) {
-                    Text("Hủy")
+                    Text("Cancel")
                 }
             }
         )

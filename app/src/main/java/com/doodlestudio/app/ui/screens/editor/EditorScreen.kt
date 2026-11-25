@@ -358,7 +358,7 @@ fun EditorScreen(
                             replayProgress = 0f
                             replayActions = emptyList()
                         } else {
-                            android.widget.Toast.makeText(context, "Hãy vẽ một vài nét trước khi xem lại!", android.widget.Toast.LENGTH_SHORT).show()
+                            android.widget.Toast.makeText(context, "Draw a few strokes first before replaying!", android.widget.Toast.LENGTH_SHORT).show()
                         }
                     },
                     onShareClick = {
@@ -623,7 +623,7 @@ fun EditorScreen(
                 onDismissRequest = { showExitDialog = false },
                 title = {
                     Text(
-                        text = "Bạn muốn làm gì với bức tranh?",
+                        text = "What do you want to do with your drawing?",
                         fontSize = 18.sp,
                         fontWeight = androidx.compose.ui.text.font.FontWeight.Bold,
                         color = Color.White
@@ -646,7 +646,7 @@ fun EditorScreen(
                             }
                         }
                     ) {
-                        Text(text = "💾 Lưu lại", color = Color(0xFFFF5B8A), fontSize = 16.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
+                        Text(text = "💾 Save", color = Color(0xFFFF5B8A), fontSize = 16.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
                     }
                 },
                 dismissButton = {
@@ -658,11 +658,11 @@ fun EditorScreen(
                             // For new blank canvas, also just navigate back
                             onNavigateBack()
                         }) {
-                            Text(text = "🗑 Xóa đi", color = Color(0xFFFF8A00), fontSize = 15.sp)
+                            Text(text = "🗑 Discard", color = Color(0xFFFF8A00), fontSize = 15.sp)
                         }
                         // "Vẽ tiếp" button — cyan
                         TextButton(onClick = { showExitDialog = false }) {
-                            Text(text = "✏️ Vẽ tiếp", color = Color(0xFF00E5FF), fontSize = 15.sp)
+                            Text(text = "✏️ Keep Drawing", color = Color(0xFF00E5FF), fontSize = 15.sp)
                         }
                     }
                 },
@@ -699,7 +699,7 @@ fun EditorScreen(
                     try {
                         context.startActivity(intent)
                     } catch (_: Exception) {
-                        android.widget.Toast.makeText(context, "Không tìm thấy trình phát video phù hợp", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(context, "No video player found", android.widget.Toast.LENGTH_SHORT).show()
                     }
                 },
                 onShareExportedVideo = { uri ->
@@ -709,7 +709,7 @@ fun EditorScreen(
                         addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                     }
                     try {
-                        context.startActivity(Intent.createChooser(intent, "Chia sẻ video"))
+                        context.startActivity(Intent.createChooser(intent, "Share Video"))
                     } catch (_: Exception) {}
                 }
             )

@@ -4,29 +4,29 @@ import androidx.compose.ui.graphics.Color
 import com.doodlestudio.app.ui.theme.NeonYellow
 
 enum class BrushTool(val toolId: String, val displayNameEn: String, val displayNameVi: String) {
-    CLASSIC_NEON("CLASSIC_NEON", "Classic Neon", "Neon cơ bản"),
-    RAINBOW_GLOW("RAINBOW_GLOW", "Rainbow Glow", "Neon cầu vồng"),
-    CALLIGRAPHY_RIBBON("CALLIGRAPHY_RIBBON", "Ribbon", "Thư pháp ruy băng"),
-    DOUBLE_STROKE("DOUBLE_STROKE", "Double Line", "Nét đôi"),
-    THIN_NEON_PEN("THIN_NEON_PEN", "Thin Neon", "Neon mảnh"),
-    CRAYON_CHALK("CRAYON_CHALK", "Crayon", "Phấn sáp"),
-    SOLID_MARKER("SOLID_MARKER", "Solid Marker", "Bút dạ khối"),
-    DOTTED_PEARL("DOTTED_PEARL", "Dotted Pearl", "Chuỗi hạt sáng"),
-    SOFT_BLUR("SOFT_BLUR", "Soft Blur", "Neon bóng mờ"),
-    CONCENTRIC_RINGS("CONCENTRIC_RINGS", "Rings", "Vòng tròn đồng tâm"),
-    SPARKLER("SPARKLER", "Sparkler", "Pháo bông que"),
-    FIREWORKS("FIREWORKS", "Fireworks", "Pháo hoa"),
-    NEON_STARS("NEON_STARS", "Stars", "Ngôi sao neon"),
-    CROSS_SPARKLES("CROSS_SPARKLES", "Sparkles", "Kim cương lấp lánh"),
-    BOKEH_DOTS("BOKEH_DOTS", "Bokeh", "Đốm sáng bokeh"),
-    BIG_CROSS_STAR("BIG_CROSS_STAR", "Cross Star", "Sao chữ thập"),
-    PURPLE_SPARKLES("PURPLE_SPARKLES", "Purple Sparkle", "Lấp lánh tím"),
-    FAIRY_DUST("FAIRY_DUST", "Fairy Dust", "Dải bụi tiên"),
-    SNOWFLAKES("SNOWFLAKES", "Snowflakes", "Hoa tuyết"),
-    HEART_BUBBLES("HEART_BUBBLES", "Heart Bubbles", "Bong bóng tim"),
-    SOAP_BUBBLES("SOAP_BUBBLES", "Soap Bubbles", "Bong bóng nước"),
+    CLASSIC_NEON("CLASSIC_NEON", "Classic Neon", "Classic Neon"),
+    RAINBOW_GLOW("RAINBOW_GLOW", "Rainbow Glow", "Rainbow Glow"),
+    CALLIGRAPHY_RIBBON("CALLIGRAPHY_RIBBON", "Ribbon", "Ribbon"),
+    DOUBLE_STROKE("DOUBLE_STROKE", "Double Line", "Double Line"),
+    THIN_NEON_PEN("THIN_NEON_PEN", "Thin Neon", "Thin Neon"),
+    CRAYON_CHALK("CRAYON_CHALK", "Crayon", "Crayon"),
+    SOLID_MARKER("SOLID_MARKER", "Solid Marker", "Solid Marker"),
+    DOTTED_PEARL("DOTTED_PEARL", "Dotted Pearl", "Dotted Pearl"),
+    SOFT_BLUR("SOFT_BLUR", "Soft Blur", "Soft Blur"),
+    CONCENTRIC_RINGS("CONCENTRIC_RINGS", "Rings", "Rings"),
+    SPARKLER("SPARKLER", "Sparkler", "Sparkler"),
+    FIREWORKS("FIREWORKS", "Fireworks", "Fireworks"),
+    NEON_STARS("NEON_STARS", "Stars", "Stars"),
+    CROSS_SPARKLES("CROSS_SPARKLES", "Sparkles", "Sparkles"),
+    BOKEH_DOTS("BOKEH_DOTS", "Bokeh", "Bokeh"),
+    BIG_CROSS_STAR("BIG_CROSS_STAR", "Cross Star", "Cross Star"),
+    PURPLE_SPARKLES("PURPLE_SPARKLES", "Purple Sparkle", "Purple Sparkle"),
+    FAIRY_DUST("FAIRY_DUST", "Fairy Dust", "Fairy Dust"),
+    SNOWFLAKES("SNOWFLAKES", "Snowflakes", "Snowflakes"),
+    HEART_BUBBLES("HEART_BUBBLES", "Heart Bubbles", "Heart Bubbles"),
+    SOAP_BUBBLES("SOAP_BUBBLES", "Soap Bubbles", "Soap Bubbles"),
 
-    ERASER("ERASER", "Eraser", "Tẩy");
+    ERASER("ERASER", "Eraser", "Eraser");
 
     val legacyOrName: String
         get() = when (this) {

@@ -14,7 +14,7 @@ import com.doodlestudio.app.domain.model.PointF
 class ClassicNeonBrush : BrushEffect(
     id = "CLASSIC_NEON",
     displayNameEn = "Classic Neon",
-    displayNameVi = "Neon cơ bản",
+    displayNameVi = "Classic Neon",
     defaultSize = 14f
 ) {
     override fun drawLive(
@@ -106,7 +106,7 @@ class ClassicNeonBrush : BrushEffect(
 class RainbowGlowBrush : BrushEffect(
     id = "RAINBOW_GLOW",
     displayNameEn = "Rainbow Glow",
-    displayNameVi = "Neon cầu vồng",
+    displayNameVi = "Rainbow Glow",
     defaultSize = 14f
 ) {
     override fun drawLive(
@@ -177,7 +177,7 @@ class RainbowGlowBrush : BrushEffect(
 class CalligraphyRibbonBrush : BrushEffect(
     id = "CALLIGRAPHY_RIBBON",
     displayNameEn = "Ribbon",
-    displayNameVi = "Thư pháp ruy băng",
+    displayNameVi = "Ribbon",
     defaultSize = 16f
 ) {
     override fun drawLive(
@@ -297,7 +297,7 @@ class CalligraphyRibbonBrush : BrushEffect(
 class DoubleStrokeBrush : BrushEffect(
     id = "DOUBLE_STROKE",
     displayNameEn = "Double Line",
-    displayNameVi = "Nét đôi",
+    displayNameVi = "Double Line",
     defaultSize = 16f
 ) {
     override fun drawLive(
@@ -415,7 +415,7 @@ class DoubleStrokeBrush : BrushEffect(
 class ThinNeonPenBrush : BrushEffect(
     id = "THIN_NEON_PEN",
     displayNameEn = "Thin Neon",
-    displayNameVi = "Neon mảnh",
+    displayNameVi = "Thin Neon",
     defaultSize = 6f
 ) {
     override fun drawLive(
